@@ -28,9 +28,9 @@ A Customer Relationship Management (CRM) app with multiple roles using Laravel 1
  - Roles & Permissions thanks to Spatie (https://github.com/spatie/laravel-permission)
 
 ## Initial roles and permissions:
-superadmin (all)
-User (Manage contacts, deals, documents, tasks)
+ - superadmin (all)
+ - user (Manage contacts, deals, documents, tasks)
 
 ## Superadmin credentials
-email: admin@admin.com
-password: admin123
+ - email: admin@admin.com
+ - password: admin123
