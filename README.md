@@ -17,6 +17,7 @@ A Customer Relationship Management (CRM) app with multiple roles using Laravel 1
 
 ## Features
  - Dashboard
+ - User management
  - Deal management
  - Customer management
  - Contact database management
