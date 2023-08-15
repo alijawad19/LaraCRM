@@ -25,7 +25,7 @@ return new class extends Migration
             $table->text('contact_image');
             $table->timestamps();
 
-            $table->foreign('created_by')->references('id')->on('Users')->onDelete('cascade');  //foreign key
+            $table->foreign('created_by')->references('id')->on('users')->onDelete('cascade');  //foreign key
         });
     }
 
