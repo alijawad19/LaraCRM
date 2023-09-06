@@ -6,6 +6,7 @@ use App\Http\Controllers\DealController;
 use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\TaskController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -43,6 +44,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('documents', DocumentController::class);
     Route::get('download/{id}', [DocumentController::class, 'download'])->name('documents.download');
     Route::resource('tasks', TaskController::class);
+    Route::resource('projects', ProjectController::class);
 });
 
 require __DIR__.'/auth.php';

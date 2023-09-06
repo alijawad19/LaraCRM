@@ -6,6 +6,7 @@ use App\Models\Contact;
 use App\Models\Deal;
 use App\Models\Document;
 use App\Models\Item;
+use App\Models\Project;
 use App\Models\Task;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -20,7 +21,8 @@ class DashboardController extends Controller
         $dealsCount = Deal::count();
         $documentsCount = Document::count();
         $tasksCount = Task::count();
+        $projectsCount = Project::count();
 
-        return view('dashboard', compact('usersCount', 'contactsCount', 'itemsCount', 'dealsCount', 'documentsCount', 'tasksCount'));
+        return view('dashboard', compact('usersCount', 'contactsCount', 'itemsCount', 'dealsCount', 'documentsCount', 'tasksCount', 'projectsCount'));
     }
 }

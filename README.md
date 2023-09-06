@@ -25,6 +25,7 @@ A Customer Relationship Management (CRM) app with multiple roles using Laravel 1
  - Deals Management
  - Documents upload and download
  - Assign and manage tasks
+ - Assign and manage projects
  - Secure registration & login
  - Roles & Permissions thanks to Spatie (https://github.com/spatie/laravel-permission)
 
